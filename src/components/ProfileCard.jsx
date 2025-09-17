@@ -16,7 +16,7 @@ const ProfileCard = () => {
         <div className="md:max-w-[480px] xl:w-[480px] w-[290px]   bg-BlackPrimary absolute top-[30%] lg:-right-96 flex flex-col gap-7 md:right-[-214px] max-sm:p-12 max-lg:p-8 lg:p-12 max-sm:px-6 max-sm:-translate-x-1/2 max-sm:left-1/2 max-sm:top-[80%] dark:bg-WhiteSecondary">
       <h3 className="Gradient text-3xl font-baiJamjuree font-bold">Follow me</h3>
       <p className="text-WhitePrimary text-lg dark:text-BlackPrimary">
-      I&apos;m Naveed, a developer who partners with startups to create impactful storefronts.</p>
+      I&apos;m Nimra Nayyar, a developer who partners with startups to create impactful storefronts.</p>
       <Divider className="bg-WhitePrimary dark:bg-BlackPrimary"/>
       <div className="flex items-center justify-between text-WhitePrimary dark:text-BlackPrimary">
         <FaFacebookF size={24}/>

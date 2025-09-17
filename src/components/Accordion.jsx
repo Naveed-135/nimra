@@ -12,11 +12,11 @@ const Accordion = () => {
   };
 
   const accordionData = [
-    "How long does a website take to build?",
-    "How much does a website cost?",
-    "I don’t have a design, can you build it?",
-    "Do you provide SEO as well?",
-    "Will my website load quickly?",
+    "What skills do you have in AI and data?",
+    "Are you open to internships?",
+    "Do you work on machine learning projects?",
+    "Can you collaborate with teams?",
+    "What are your career goals?",
   ];
   
 

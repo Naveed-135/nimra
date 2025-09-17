@@ -16,7 +16,7 @@ const page = () => {
         <div className='flex xl:pt-32 xl:mb-20 md:pt-24 md:mb-12 pt-14 mb-10  max-xl:flex-col max-xl:items-center max-xl:text-center max-sm:gap-4 max-xl:gap-8'>
           {/* text */}
         <div className='xl:w-1/2 w-full '>
-            <h2 className='md:text-7xl text-4xl max-w-[465px] max-xl:mx-auto  font-baiJamjuree font-bold text-BlackPrimary dark:text-WhitePrimary'>Hi, I am <span className='Gradient'> Naveed</span>
+            <h2 className='md:text-7xl text-4xl max-w-[465px] max-xl:mx-auto  font-baiJamjuree font-bold text-BlackPrimary dark:text-WhitePrimary'>Hi, I am <span className='Gradient'> Nimra Nayyar</span>
             </h2>
             </div>
           {/* para icon */}

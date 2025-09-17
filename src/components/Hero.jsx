@@ -20,14 +20,14 @@ export default function Hero() {
 
           {/* Heading */}
           <h1 className="xl:text-7xl md:text-6xl dark:text-WhitePrimary text-4xl font-baiJamjuree font-bold  text-BlackPrimary">
-            <span className="Gradient">Hello, I&apos;m Naveed,</span> a creative
-            Shopify Developer based in Pakistan.
+            <span className="Gradient">Hello, I&apos;m Nimra Nayyar</span>  
+
           </h1>
 
           {/* Description */}
           <p className=" max-w-2xl text-BlackPrimary dark:text-WhitePrimary text-base md:text-lg">
-            I specialize in building responsive storefronts, optimizing user
-            experiences, and crafting visually appealing e-Commerce designs.
+          an AI enthusiast with a background in Computer Science. Skilled in Python,
+          SQL, and PySpark, I’m passionate about turning data into meaningful solutions.
           </p>
 
           {/* Buttons */}

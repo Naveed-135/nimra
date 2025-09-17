@@ -9,8 +9,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-inter" });
 const baiJamjuree = Bai_Jamjuree({ subsets: ["latin"], weight: ["400", "500", "600", "700"], variable: "--font-bai-jamjuree" });
 export const metadata = {
-  title: "Naveed dev",
-  description: "Naveed dev",
+  title: "Nimra Nayyar",
+  description: "Nimra Nayyar",
 };
 export default function RootLayout({ children }) {
   return (

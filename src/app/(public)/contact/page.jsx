@@ -17,11 +17,11 @@ const page = () => {
         <div className='flex flex-col gap-3'>
           <div className='flex items-center gap-3'>
             <Image  src="/mail.svg" alt='mail-svg' width={1000} height={1000} className='md:w-7 md:h-7 w-6 h-6'/>
-            <p className='text-BlackPrimary text-base md:text-lg font-medium md:font-bold dark:text-WhitePrimary'>naveedahamad135@gmail.com</p>
+            <p className='text-BlackPrimary text-base md:text-lg font-medium md:font-bold dark:text-WhitePrimary'>NIMRANAYYAR70@gmail.com</p>
           </div>
           <div className='flex items-center gap-3 '>
           <Image  src="/phone.svg" alt='mail.svg' width={1000} height={1000} className='md:w-7 md:h-7 w-6 h-6'/>
-            <p className='text-BlackPrimary md:text-lg text-base font-medium md:font-bold dark:text-WhitePrimary'>+92-327-5142661</p>
+            <p className='text-BlackPrimary md:text-lg text-base font-medium md:font-bold dark:text-WhitePrimary'>07352655070</p>
           </div>
         </div>
       </div>
