@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+   background-color:#F0F2F5 ;
+   /* cursor: none; */
+}
+body:dark{
+   background-color:#161513 ;
+}
+
+
+.Gradient {
+    background: linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+  }
+  header{
+    max-width: 1400px !important;
+    padding: 0px !important;
+    gap: 0px !important;
+  }
+.border-gradient{
+   border-image: linear-gradient(to right, #B16CEA, #FF5E69, #FF8A56, #FFA84B) 1;
+   
+}
+.bg-background\/70{
+   justify-content: space-evenly ;
+}
+.gradient-border {
+   background: 
+     linear-gradient(#F0F2F5, #F0F2F5) padding-box,
+     linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B) border-box;
+   border: 2px solid transparent;
+   border-radius: 50%; /* Works with border-radius! */
+ }
+
+ .group-data-\[selected\=true\]\:ms-6 {
+   margin-inline-start:  0rem !important;
+}
+.dark .gradient-border-dark {
+   background: 
+     linear-gradient(#000, #000) padding-box,
+     linear-gradient(90deg, #B16CEA, #FF5E69, #FF8A56, #FFA84B) border-box;
+   border: 2px solid transparent;
+   border-radius: 50%; /* Works with border-radius! */
+ }
