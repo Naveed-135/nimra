@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="flex flex-col gap-6 md:gap-10">
             <div className="flex justify-between items-center flex-col md:flex-row gap-6">
               <h4 className="text-4xl font-baiJamjuree font-bold uppercase Gradient">
-                naveed
+              nimra nayyar
               </h4>
               <div className="flex max-sm:justify-between max-sm:w-full md:gap-6 max-sm:flex-col gap-5 max-sm:items-center">
                 {navLinks.map(({ label, href }, index) => {
