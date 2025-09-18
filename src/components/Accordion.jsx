@@ -12,11 +12,26 @@ const Accordion = () => {
   };
 
   const accordionData = [
-    "What skills do you have in AI and data?",
-    "Are you open to internships?",
-    "Do you work on machine learning projects?",
-    "Can you collaborate with teams?",
-    "What are your career goals?",
+    {
+      question: "What skills do you have in AI and data?",
+      answer: "I have hands-on experience with Python, SQL, and PySpark, and I’m currently expanding myknowledge through an MS in Artificial Intelligence."
+    },
+    {
+      question: "Are you open to internships?",
+      answer: "Yes! I’m actively seeking internship opportunities to apply my skills in real-world projects and gain industry experience."
+    },
+    {
+      question: "Do you work on machine learning projects?",
+      answer: "I have a foundational understanding of ML and AI concepts, and I’m eager to work on projects where I can learn and contribute."
+    },
+    {
+      question: "Can you collaborate with teams?",
+      answer: "Absolutely — I enjoy working in collaborative environments and believe teamwork is essential for building effective AI solutions."
+    },
+    {
+      question: "What are your career goals?",
+      answer: "My goal is to grow as an AI Engineer, starting with internships and entry-level roles that allow me to apply data and AI to solve meaningful problems."
+    }
   ];
   
 
@@ -32,7 +47,7 @@ const Accordion = () => {
             className="w-full flex justify-between items-center px-4 py-3 md:text-2xl font-baiJamjuree font-bold focus:outline-none"
             onClick={() => toggleAccordion(index)}
           >
-            {item}
+            {item.question}
             <motion.span
               className="flex items-center"
               animate={{
@@ -69,8 +84,7 @@ const Accordion = () => {
               transition={{ duration: 0.3, ease: "easeInOut", delay: 0.1 }}
               className="py-3"
             >
-              Placeholder content for &ldquo;{item}&ldquo;. Replace this with actual
-              content.
+              {item.answer}
             </motion.p>
           </motion.div>
         </div>
