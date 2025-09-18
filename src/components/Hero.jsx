@@ -10,7 +10,7 @@ export default function Hero() {
           {/* Profile Image */}
           <div className="w-[260px] h-[260px] rounded-full overflow-hidden ">
             <Image
-              src="/hero-img.jpg"
+              src="/hero-img.jpeg"
               width={500}
               height={500}
               className="object-cover aspect-square "
